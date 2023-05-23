@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
 
 const navigation = [
-    { name: 'General', href: '#' },
+    { name: 'General', href: '/info/general' },
     { name: 'Economy', href: '#' },
     { name: 'Communication Styles', href: '#' },
     { name: 'Hot Topic', href: '#' },
@@ -15,7 +15,7 @@ export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="absolute inset-x-0 top-0 z-50">
+        <header className="inset-x-0 top-0 z-50">
             <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <Link href="https://en.wikipedia.org/wiki/Japan" className="-m-1.5 p-1.5">
