@@ -36,29 +36,42 @@ const timeline = [
 
 const similaritiesDiferences = [
     {
-        name: 'Similarity 1',
+        name: 'Personal Relationships',
         description:
-            'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+            'Both cultures place a high value on personal relationships in business.\n',
         icon: CloudArrowUpIcon,
     },
     {
-        name: 'Difference 1',
+        name: 'Negotiations',
         description:
-            'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+            'Japanese negotiations may take longer due to the emphasis on consensus decision-making, while Mexican negotiations may be faster once a strong personal relationship is established.\n',
         icon: LockClosedIcon,
     },
     {
-        name: 'Similarity 2',
+        name: 'Indirect Communication',
         description:
-            'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+            'Both prefer indirect communication and avoid saying "no" directly.\n',
         icon: ArrowPathIcon,
     },
     {
-        name: 'Difference 2',
+        name: 'Business Culture',
         description:
-            'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+            'Japanese business culture is typically more formal and protocol-oriented than Mexican business culture.\n',
         icon: FingerPrintIcon,
     },
+    {
+        name: 'Hierarchy',
+        description:
+            'Both cultures are hierarchical and respect authority.',
+        icon: FingerPrintIcon,
+    },
+    {
+        name: 'Appearance',
+        description:
+            'The concept of "saving face" is more prominent in Japanese culture than in Mexican culture.\n',
+        icon: FingerPrintIcon,
+    },
+
 ]
 
 const faqs = [
@@ -295,8 +308,7 @@ export default function Business(){
                         Mexico & Japan
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-                        pulvinar et feugiat blandit at. In mi viverra elit nunc.
+                        Remember that these are general tendencies and may not apply to every individual from these cultures. It&apos;s also important to stay updated on these topics as cultures evolve and global business practices change over time.
                     </p>
                 </div>
                 <div className="mx-auto mt-8 max-w-2xl sm:mt-20 lg:mt-12 lg:max-w-4xl">
