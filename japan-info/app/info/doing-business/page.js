@@ -236,9 +236,9 @@ export default function Business(){
                                         <ServerIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
                                         <span>
                                             <strong className="font-semibold text-gray-900">Hard Sell Doesn&apos;t Sell.</strong> When doing business in Japan,
-                                            it's important to remember that a hard-sell approach will not succeed.
+                                            it&apos;s important to remember that a hard-sell approach will not succeed.
                                             Check any aggressive-leaning tactics at the door. Instead, adopt a gentle, persuasive tone that showcases the virtues of what you are proposing.
-                                            Find points of agreement and build on those. Once you've made your case, don't drive too hard on decisions and deadlines.
+                                            Find points of agreement and build on those. Once you&apos;ve made your case, don&apos;t drive too hard on decisions and deadlines.
                                             Understand that the Japanese decision-making style relies on consensus. Trying to speed up the process may come across as disrespectful.
                                             Japanese business etiquette mandates patience and the view that time and careful consideration help build trust and cement relationships.
                                         </span>
@@ -246,9 +246,9 @@ export default function Business(){
                                     <li className="flex gap-x-3">
                                         <ServerIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
                                         <span>
-                                            <strong className="font-semibold text-gray-900">Group Solidarity Is Paramount</strong> Group Solidarity Is ParamountIt's widely known that Japan is a
+                                            <strong className="font-semibold text-gray-900">Group Solidarity Is Paramount</strong> It&apos;s widely known that Japan is a
                                             group-oriented culture—group solidarity can often be valued over individualism. As the famous Japanese saying goes,
-                                            "A single arrow is easily broken, but not ten in a bundle." This cultural mindset impacts certain behaviors,
+                                            &quot;A single arrow is easily broken, but not ten in a bundle.&quot; This cultural mindset impacts certain behaviors,
                                             such as how praise is received. While Western cultures may value individual contributions and strongly believe in recognition and individual praise,
                                             the opposite can be true in Japanese business practices.
                                         </span>
