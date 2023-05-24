@@ -7,6 +7,7 @@ import Link from "next/link";
 const navigation = [
     { name: 'General', href: '/info/general' },
     { name: 'Economy', href: '/info/economy' },
+    { name: 'Business', href: '/info/doing-business' },
     { name: 'Communication Styles', href: '/info/communication-styles' },
     { name: 'Hot Topic', href: '/info/hot-topic' },
     { name: 'References', href: '/info/references' },
