@@ -1,21 +1,154 @@
 import React from 'react';
+import { MapIcon, MapPinIcon, UserIcon, CurrencyYenIcon, FlagIcon, LanguageIcon, SunIcon, MusicalNoteIcon, LightBulbIcon } from '@heroicons/react/20/solid'
 export default function General(){
     return(
-        <div>
-            <h1>General</h1>
-            <h1>Location: Asia</h1>
-            <h1>Capital City: Tokio</h1>
-            <h1>Population: 126.3 million (2019)</h1>
-            <h1>Ethnic Distribution</h1>
-            <h1>GDP Per Capita</h1>
-            <h1>Type Of Government</h1>
-            <h1>Language: Japanese</h1>
-            <h1>Representative symbols</h1>
-            <h1>Flag</h1>
-            <h1>Emblem</h1>
-            <h1>Shield</h1>
-            <h1>Flower</h1>
-            <h1>Tree</h1>
+        <div className="relative isolate overflow-hidden px-6  sm:py-32 lg:overflow-visible lg:pt-12">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+                <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                    <div className="lg:pr-4">
+                        <div className="lg:max-w-lg">
+                            <p className="text-base font-semibold leading-7 text-red-600">General Information</p>
+                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Japan</h1>
+                            <p className="mt-6 text-xl leading-8 text-gray-700">
+                                Japan is one of the biggest economy of the 21st century. It is a country with a rich culture and history that dates all the
+                                way back to the 10th century. It is also one of the most technologically advanced countries in the world. Focused on production
+                                and development, it is a democratic success in the Asian continent.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                    <img
+                        className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                        src="https://i.ibb.co/3Tmz0JM/pexels-satoshi-hirayama-1325837.jpg"
+                        alt=""
+                    />
+                </div>
+                <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                    <div className="lg:pr-4">
+                        <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+                            <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                                <li className="flex gap-x-3">
+                                    <MapIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <span>
+                    <strong className="font-semibold text-gray-900">Location.</strong> Eastern Asia, island chain between
+                                        the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula
+                  </span>
+                                </li>
+                                <li className="flex gap-x-3">
+                                    <MapPinIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <span>
+                    <strong className="font-semibold text-gray-900">Capital.</strong> Tokyo
+                  </span>
+                                </li>
+                                <li className="flex gap-x-3">
+                                    <UserIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <span>
+                    <strong className="font-semibold text-gray-900">Number of inhabitants. </strong> 123,719,238 (2023 est.), most of the population
+                                        resides on the coastal areas, with one third living in Kanto Plain (Tokyo)
+                  </span>
+                                </li>
+                                <li className="flex gap-x-3">
+                                    <CurrencyYenIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <span>
+                    <strong className="font-semibold text-gray-900">GDP per Capita. </strong> $40,800 (2021 est.) note: data are in 2017 dollars
+                  </span>
+                                </li>
+                                <li className="flex gap-x-3">
+                                    <LanguageIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <span>
+                    <strong className="font-semibold text-gray-900">Language. </strong> Japanese
+                  </span>
+                                </li>
+                            </ul>
+                            <h4 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Ethnic Distribution</h4>
+                            <p className="mt-8">
+                                Japanese 97.9%, Chinese 0.6%, Korean 0.4%, other 1.1% (includes Vietnamese, Filipino, and Brazilian) (2017 est.)
+                            </p>
+                            <h4 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Type of Government</h4>
+                            <p className="mt-6">
+                                Japan is a parliamentary constitutional monarchy, the emperor is the head of state and the prime minister is the head of government.
+                                The emperor is a ceremonial figurehead who performs ceremonial duties, but his power is limited. The prime minister is the head of the
+                                government.
+                            </p>
+                            <div className="mt-8 lg:sticky">
+                                <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Representative Symbols</h3>
+                                <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                                    <li className="flex gap-x-3">
+                                        <FlagIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                        <strong className="font-semibold text-gray-900">Flag.</strong> White with a large red disk (representing the sun without rays) in the center
+                                      </span>
+                                    </li>
+                                    <li className="flex gap-x-3 ">
+                                        <img
+                                            src={"/japan-flag-vector-file-89261619 (1).jpg"}
+                                            alt="japan flag"
+                                            className={"w-50 h-25"}
+                                        />
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <SunIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                        <strong className="font-semibold text-gray-900">Flower.</strong> Cherry blossom
+                                      </span>
+                                    </li>
+                                    <li className="flex gap-x-3 ">
+                                        <img
+                                            src={"/pexels-brett-sayles-992734.jpg"}
+                                            alt="Cherry Blossom"
+                                            className={"w-50 h-25"}
+                                        />
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <LightBulbIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                        <strong className="font-semibold text-gray-900">Fish.</strong> Koi
+                                      </span>
+                                    </li>
+                                    <li className="flex gap-x-3 ">
+                                        <img
+                                            src={"/Koi.jpg"}
+                                            alt="Koi Fish"
+                                            className={"w-50 h-25"}
+                                        />
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <MusicalNoteIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                        <strong className="font-semibold text-gray-900">Imperial Seal. </strong> Chrysanthemum Flower Seal
+                                      </span>
+                                    </li>
+                                    <li className="flex gap-x-3 ">
+                                        <img
+                                            src={"/1920px-Imperial_Seal_of_Japan.svg.png"}
+                                            alt="Koi Fish"
+                                            className={"w-50 h-25"}
+                                        />
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <MusicalNoteIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                        <strong className="font-semibold text-gray-900">National Anthem</strong> Kimi Ga Yo 君が代
+                                      </span>
+                                    </li>
+                                    <li className="flex gap-x-3 ">
+                                        <div className="w-90 h-40 relative overflow-visible">
+                                            <iframe
+                                                    src="https://www.youtube.com/embed/mlESQKFUNfw"
+                                                    title="YouTube video player"
+                                                    frameBorder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    allowFullScreen>
+                                            </iframe>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
