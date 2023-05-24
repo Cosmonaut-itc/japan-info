@@ -63,9 +63,88 @@ const similaritiesDiferences = [
 
 const faqs = [
     {
-        question: 'How do you make holy water?',
+        question: 'Dont: ',
         answer:
-            'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+            '- Gift Exchange, What You Do not Know Can Hurt You. Doing business in Japan requires you to learn a few rules about gift-giving. A business gift exchange is an important tradition in Japanese business etiquette, especially at the first meeting. What can go wrong when giving a small gift? Many things, it seems: Flowers such as lilies, lotus blossoms and camellias are used for funeral services and should, therefore, be avoided.',
+    },
+    {
+        question: '',
+        answer:
+            '-Don’t outwardly express negative (angry, frustrated, etc.) emotions.\n' +
+            'Japanese consider open expression of emotions, especially negative ones, to be immature and\n' +
+            'indicative of lack of self-control. Even if you are upset, it’s best to put on your best poker face and speak calmly.',
+    },
+    {
+        question: '',
+        answer:
+            '- Don’t refer to a Japanese person by first name unless instructed to do so.\n' +
+            'Use last name + ‘san’ (but never use ‘san’ for yourself!)\n' +
+            'Use of Japanese first names is typically only for very familiar relations. Last name +’ san’ demonstrates respect\n'
+    },
+    {
+        question: '',
+        answer:
+            '- Don’t decline an invitation to socialize.\n' +
+            'Socializing after working hours is a critical part of relationship building in Japan and often where a lot of\n' +
+            'bridges are built. If interested in furthering business relations, accept any such invitation whenever possible.'
+    },
+    {
+        question: '',
+        answer:
+            '- Don’t pour your own drink.\n' +
+            'It is customary in Japan for people to pour drinks for other people, usually with more junior people\n' +
+            'serving more senior people. It’s important to pay attention and fill someone’s glass before it gets empty.'
+    },
+    {
+        question: '',
+        answer:
+            '- Don’t engage in direct confrontation or aggressive tactics.\n' +
+            'Japanese place great value on harmonious and non-confrontational behavior and\n' +
+            'communication. A softer and more diplomatic approach is almost always best with the Japanese.'
+    },
+    {
+        question: '',
+        answer:
+            '- Don’t pass food with chopsticks or stick chopsticks in your rice.\n' +
+            'These are both actions reserved for Buddhist ceremonies associated with death.'
+    },
+    {
+        question: '',
+        answer:
+            'Don’t self-aggrandize; modesty is a virtue.\n' +
+            'Modesty is a virtue in Japan, even to the point of self-deprecation. ‘Tooting\n' +
+            'one’s own horn’ is frowned upon, as is praising one’s own colleagues, family, etc'
+    },
+    {
+        question: 'Do: ',
+        answer:
+            '- Express gratitude and apologize (when sincere) frequently.\n' +
+            'Thank you’s and apologies go a long way in Japan. Think of an apology as saying you feel sorry about a\n' +
+            'circumstance or inconvenience, not that you are necessarily responsible for it. Apologies trump excuses.\n'
+    },
+    {
+        question: '',
+        answer:
+            '- Try to do or say something Japanese; the effort goes a long way.\n' +
+            'It doesn’t matter if you get it exactly right or become fluent, but make an effort to learn a few cultural norms and\n' +
+            'a handful of words in Japanese. The effort will win you huge points and go a long way in relationship-building.\n'
+    },
+    {
+        question: '',
+        answer:
+            '- Summarize key points in writing and use visual supplements.\n' +
+            'Generally speaking, because of the way they learn English, Japanese tend to have a stronger command\n' +
+            'of written English than spoken. Whenever possible, put key points in writing and use visual supplements.\n' +
+            '- Be well-groomed and on the formal, conservative side with appearance.\n' +
+            'With some exceptions, professional appearance in Japan tends to be conservative/ formal. Dark and\n' +
+            'solid-colored suits, minimal accessories, clean shoes, a nice bag, and well-groomed hair are recommended.\n',
+    },
+    {
+        question: '',
+        answer:
+            '- Be well-groomed and on the formal, conservative side with appearance.\n' +
+            'With some exceptions, professional appearance in Japan tends to be conservative/ formal. Dark and\n' +
+            'solid-colored suits, minimal accessories, clean shoes, a nice bag, and well-groomed hair are recommended.\n',
     },
     // More questions...
 ]
@@ -81,8 +160,9 @@ export default function Business(){
                                 <p className="text-base font-semibold leading-7 text-red-600">Business</p>
                                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Etiquette</h1>
                                 <p className="mt-6 text-xl leading-8 text-gray-700">
-                                    Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                                    eget aliquam. Quisque id at vitae feugiat egestas.
+                                    Business etiquette is important because it creates a professional, mutually respectful atmosphere and
+                                    improves communication, also, when dealing with a foreign culture, having the correct etiquette can be the
+                                    difference between a successful business deal and a failure.
                                 </p>
                             </div>
                         </div>
@@ -100,46 +180,83 @@ export default function Business(){
                         <div className="lg:pr-4">
                             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                                 <p>
-                                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                                    vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                                    erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                                    semper sed amet vitae sed turpis id.
+                                    Here are some tips to help you navigate the business world in Japan.
                                 </p>
                                 <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                     <li className="flex gap-x-3">
                                         <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
                                         <span>
-                    <strong className="font-semibold text-gray-900">Greetings.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
-                  </span>
+                    <strong className="font-semibold text-gray-900">Punctuality.</strong> The stereotype is true.  Events and meetings in Japan sometimes really do begin at 3 minutes past the hour.
+                                            Being on time is essentially a given.
+                                            This deep cultural point is reinforced by the predictability and reliability of arguably the world’s most advanced public transport infrastructure.
+
+                                        </span>
                                     </li>
                                     <li className="flex gap-x-3">
                                         <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
                                         <span>
-                    <strong className="font-semibold text-gray-900">Outfit.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-gray-900">Business Cards.</strong> The exchange of business cards (meishi) is an essential part of initial meetings in Japan and follows a strict protocol. It allows the Japanese to quickly determine their counterpart’s all-important position, title and rank. While still standing, you should politely hand a business card over with two hands, and receive one in return. A slight bow as a form of respect when exchanging is usually performed.
                   </span>
                                     </li>
                                     <li className="flex gap-x-3">
                                         <ServerIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
                                         <span>
-                    <strong className="font-semibold text-gray-900">Procedures.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                  </span>
+                    <strong className="font-semibold text-gray-900">Bowing and handshakes.</strong> Bowing is an important part of everyday life in Japan,
+                                            including in the business context. Japanese bow to those senior to them both as a greeting and a show of respect.
+                                            The junior person initiates the bow, bending from the waist to an angle of between 30 and 45 degrees from vertical.
+                                            Men keep their arms by their sides and women may cross their hands or fingers at thigh height.
+                                            A less accentuated bow, usually about 15 degrees, is returned as acknowledgment from the more senior person.
+                                            It is considered bad manners and aggressive to hold eye contact with someone when you are bowing to them; this is usually done by competitors in martial arts before they fight.
+                                            Greet the highest-status individual first, followed by the oldest when meeting a group of Japanese.
+                                            For Australian business people, extending a simple handshake when greeting and taking leave is fine; just don’t shake hands and bow at the same time. Choose one and stick with it.
+                                        </span>
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <ServerIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                            <strong className="font-semibold text-gray-900">Building Relationships.</strong> Japan is a more relationship-oriented culture than Australia, particularly when it comes to doing business. Japanese want to know and trust someone before they do business with them. Relationships are developed through informal social gatherings and generally involve a considerable amount of eating and drinking.
+                                        </span>
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <ServerIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                             <strong className="font-semibold text-gray-900">Silence is Golden.</strong> In a business setting, silence is valued over an overabundance of talking. Silence speaks loudly about wisdom and emotional self-control. This may run counter to a Western approach, where being more outgoing can facilitate communication. Japanese business culture is characterized by a more introverted, formal approach, especially at the beginning of a business relationship. This approach is likely to be better received when doing business in Japan. To respect Japanese business etiquette, resist the urge to fill the silence with more talk about an issue your Japanese counterpart would rather avoid at the moment.
+                                        </span>
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <ServerIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                            <strong className="font-semibold text-gray-900">Age Equals Seniority.</strong> Notwithstanding the many changes in modern Japan, age is revered and can be synonymous with rank in a business setting.
+                                            In line with Japanese business culture, older executives are treated with more marked deference than the younger ones in the group.
+                                            Be sure to greet the most senior person before you greet others. Likewise, offer your business card to the senior person first.
+                                            These subtle aspects of Japanese business etiquette are sure to be noticed and appreciated.
+                                        </span>
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <ServerIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                            <strong className="font-semibold text-gray-900">Hard Sell Doesn&apos;t Sell.</strong> When doing business in Japan,
+                                            it's important to remember that a hard-sell approach will not succeed.
+                                            Check any aggressive-leaning tactics at the door. Instead, adopt a gentle, persuasive tone that showcases the virtues of what you are proposing.
+                                            Find points of agreement and build on those. Once you've made your case, don't drive too hard on decisions and deadlines.
+                                            Understand that the Japanese decision-making style relies on consensus. Trying to speed up the process may come across as disrespectful.
+                                            Japanese business etiquette mandates patience and the view that time and careful consideration help build trust and cement relationships.
+                                        </span>
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <ServerIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <span>
+                                            <strong className="font-semibold text-gray-900">Group Solidarity Is Paramount</strong> Group Solidarity Is ParamountIt's widely known that Japan is a
+                                            group-oriented culture—group solidarity can often be valued over individualism. As the famous Japanese saying goes,
+                                            "A single arrow is easily broken, but not ten in a bundle." This cultural mindset impacts certain behaviors,
+                                            such as how praise is received. While Western cultures may value individual contributions and strongly believe in recognition and individual praise,
+                                            the opposite can be true in Japanese business practices.
+                                        </span>
                                     </li>
                                 </ul>
-                                <p className="mt-8">
-                                    Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                                    fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                                    adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-                                </p>
                                 <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What&apos;s next?</h2>
                                 <p className="mt-6">
-                                    Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                                    Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                                    tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                                    turpis ipsum eu a sed convallis diam.
+                                    After reading this section, you are more than well prepared to start you succesful endeavors in the business environment in Japan.
                                 </p>
                             </div>
                         </div>
