@@ -68,7 +68,7 @@ export default function Economia(){
                     <h2 className="text-base font-semibold leading-7 text-red-600">Japanese</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Economy</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        It&apos;s the fourth largest economy in the world, with a trade oriented an diversified industrial base.
+                        It&apos;s the fourth largest economies in the world, with a trade oriented an diversified industrial base.
                     </p>
                 </div>
             </div>

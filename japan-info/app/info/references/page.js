@@ -34,7 +34,7 @@ export default function References() {
                         References
                     </h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        This are the websites I consulted mi information from.
+                        This are the websites I consulted my information from.
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
