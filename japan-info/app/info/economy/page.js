@@ -10,17 +10,22 @@ import {
 const features = [
     {
         name: 'Main Exports.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+        description: 'Cars and vehicle parts, integrated circuits, general machinery, photo lab equipment, construction vehicles, semiconductors  (2021)',
         icon: GlobeAsiaAustraliaIcon,
     },
     {
         name: 'Main Imports.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+        description: 'Crude petroleum, natural gas, integrated circuits, coal, refined petroleum, iron (2021)',
         icon: GlobeAmericasIcon,
     },
     {
-        name: 'Economic Sectors.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
+        name: 'Import Partners.',
+        description: 'China 24%, United States 10%, Australia 7%, South Korea 4%, Taiwan 4% (2021)',
+        icon: BanknotesIcon,
+    },
+    {
+        name: 'Export Partners.',
+        description: 'China 21%, United States 18%, South Korea 7%, Taiwan 7%, Thailand 4% (2021)',
         icon: BanknotesIcon,
     },
 ]
@@ -45,9 +50,12 @@ const economicSectorFeatures = [
 ]
 
 const stats = [
-    { id: 1, name: 'Unemployment', value: '44 million' },
-    { id: 2, name: 'Inflation', value: '$119 trillion' },
-    { id: 3, name: 'GDP', value: '46,000' },
+    { id: 1, name: 'GDP (2021 est.)', value: '5.126 trillion' },
+    { id: 2, name: 'Inflation (2021 est.)', value: '-0.23% ' },
+    { id: 3, name: 'Unemployment (2021 est.)', value: '2.8%' },
+    { id: 4, name: 'Imports (2021 est.)', value: '941.671 billion' },
+    { id: 5, name: 'Exports (2021 est.)', value: '919.158 billion' },
+    { id: 6, name: 'Yen (JPY) per US dollar (2021 est.)', value: '109.754' },
 ]
 
 
