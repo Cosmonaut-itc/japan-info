@@ -128,7 +128,7 @@ export default function Economia(){
                     <h2 className="text-base font-semibold leading-7 text-red-600">Japanese</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Economy</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        It's the fourth largest economy in the world, with a trade oriented an diversified industrial base.
+                        It&apos;s the fourth largest economy in the world, with a trade oriented an diversified industrial base.
                     </p>
                 </div>
             </div>
@@ -268,7 +268,7 @@ export default function Economia(){
                                     fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
                                     adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
                                 </p>
-                                <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What's next?</h2>
+                                <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What&apos;s next?</h2>
                                 <p className="mt-6">
                                     Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
                                     Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
@@ -344,7 +344,7 @@ export default function Economia(){
             <div className="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div className="lg:col-span-5">
-                        <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Do's and Dont's</h2>
+                        <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Do&apos;s and Dont&apos;s</h2>
                         <p className="mt-4 text-base leading-7 text-gray-600">
                            Here is some advice of what to do and what no to do when doing business in Japan.
                         </p>
