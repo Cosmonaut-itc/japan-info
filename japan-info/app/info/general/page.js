@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import { MapIcon, MapPinIcon, UserIcon, CurrencyYenIcon, FlagIcon, LanguageIcon, SunIcon, MusicalNoteIcon, LightBulbIcon } from '@heroicons/react/20/solid'
 export default function General(){
     return(
@@ -18,9 +19,11 @@ export default function General(){
                     </div>
                 </div>
                 <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                    <img
+                    <Image
+                        width={500}
+                        height={500}
                         className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-                        src="https://i.ibb.co/3Tmz0JM/pexels-satoshi-hirayama-1325837.jpg"
+                        src="/pexels-satoshi-hirayama-1325837.jpg"
                         alt=""
                     />
                 </div>
@@ -81,7 +84,9 @@ export default function General(){
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
-                                        <img
+                                        <Image
+                                            height={500}
+                                            width={500}
                                             src={"/japan-flag-vector-file-89261619 (1).jpg"}
                                             alt="japan flag"
                                             className={"w-50 h-25"}
@@ -94,7 +99,9 @@ export default function General(){
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
-                                        <img
+                                        <Image
+                                            height={500}
+                                            width={500}
                                             src={"/pexels-brett-sayles-992734.jpg"}
                                             alt="Cherry Blossom"
                                             className={"w-50 h-25"}
@@ -107,7 +114,9 @@ export default function General(){
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
-                                        <img
+                                        <Image
+                                            height={500}
+                                            width={500}
                                             src={"/Koi.jpg"}
                                             alt="Koi Fish"
                                             className={"w-50 h-25"}
@@ -120,7 +129,9 @@ export default function General(){
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
-                                        <img
+                                        <Image
+                                            height={500}
+                                            width={500}
                                             src={"/1920px-Imperial_Seal_of_Japan.svg.png"}
                                             alt="Koi Fish"
                                             className={"w-50 h-25"}
@@ -137,7 +148,6 @@ export default function General(){
                                             <iframe
                                                     src="https://www.youtube.com/embed/mlESQKFUNfw"
                                                     title="YouTube video player"
-                                                    frameBorder="0"
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                     allowFullScreen>
                                             </iframe>
