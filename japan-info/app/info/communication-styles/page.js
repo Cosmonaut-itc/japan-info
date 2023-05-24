@@ -21,7 +21,7 @@ export default function CommunicationStyles(){
                     </p>
                     <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
                         <li className="flex gap-x-3">
-                            <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                            <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
                             <span>
                 <strong className="font-semibold text-gray-900">Data types.</strong> Lorem ipsum, dolor sit amet
                 consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
@@ -29,14 +29,14 @@ export default function CommunicationStyles(){
               </span>
                         </li>
                         <li className="flex gap-x-3">
-                            <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                            <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
                             <span>
                 <strong className="font-semibold text-gray-900">Loops.</strong> Anim aute id magna aliqua ad ad non
                 deserunt sunt. Qui irure qui lorem cupidatat commodo.
               </span>
                         </li>
                         <li className="flex gap-x-3">
-                            <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                            <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
                             <span>
                 <strong className="font-semibold text-gray-900">Events.</strong> Ac tincidunt sapien vehicula erat
                 auctor pellentesque rhoncus. Et magna sit morbi lobortis.
@@ -55,7 +55,7 @@ export default function CommunicationStyles(){
                         mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
                         ipsum eu a sed convallis diam.
                     </p>
-                    <figure className="mt-10 border-l border-indigo-600 pl-9">
+                    <figure className="mt-10 border-l border-red-600 pl-9">
                         <blockquote className="font-semibold text-gray-900">
                             <p>
                                 “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac
