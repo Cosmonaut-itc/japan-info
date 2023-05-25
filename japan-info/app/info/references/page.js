@@ -5,21 +5,21 @@ const features = [
     {
         name: '',
         description:
-            'A guide to japanese business etiquette. (n.d.). Retrieved from https://www.americanexpress.com/en-us/business/trends-and-insights/articles/doing-business-in-japan-10-etiquette-rules-you-should-know/ ',
-        href: 'https://www.americanexpress.com/en-us/business/trends-and-insights/articles/doing-business-in-japan-10-etiquette-rules-you-should-know/',
+            'Nikolaou, I. (2015, May). Negotiating the Greek way. College of Europe. https://www.coleurope.eu/training-projects/newsletter/archive/2015-issue-3/negotiating-greek-way',
+        href: 'https://www.coleurope.eu/training-projects/newsletter/archive/2015-issue-3/negotiating-greek-way',
         icon: InboxIcon,
     },
     {
         name: '',
         description:
-            'Kopp, R. (2020). Retrieved from https://japanintercultural.com/free-resources/articles/working-effectively-with-mexicans-what-japanese-companies-need-to-know/ ',
-        href: 'https://japanintercultural.com/free-resources/articles/working-effectively-with-mexicans-what-japanese-companies-need-to-know/',
+            'Schroll-Machl, S. (n.d.). Doing Business with Greece. Leadership Crossroads. Retrieved May 24, 2023, from http://www.leadershipcrossroads.com/mat/cou/Greece.pdf',
+        href: 'http://www.leadershipcrossroads.com/mat/cou/Greece.pdf',
         icon: UsersIcon,
     },
     {
         name: '',
         description:
-            '(2023). Retrieved from https://crossculture2go.com/negotiations-in-mexico/ ',
+            'CIA (2023). Greece. Retrieved from https://www.cia.gov/the-world-factbook/countries/greece/#economy  ',
         href: 'https://crossculture2go.com/negotiations-in-mexico/',
         icon: LightBulbIcon,
     },
@@ -42,15 +42,15 @@ export default function References() {
                         {features.map((feature) => (
                             <div key={feature.name} className="flex flex-col">
                                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                                    <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-red-600">
+                                    <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
                                         <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                                     </div>
                                     {feature.name}
                                 </dt>
-                                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600 overflow-auto">
                                     <p className="flex-auto">{feature.description}</p>
                                     <p className="mt-6">
-                                        <a href={feature.href} className="text-sm font-semibold leading-6 text-red-600">
+                                        <a href={feature.href} className="text-sm font-semibold leading-6 text-blue-600">
                                             Learn more <span aria-hidden="true">→</span>
                                         </a>
                                     </p>
