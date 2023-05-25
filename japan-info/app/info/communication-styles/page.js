@@ -1,5 +1,6 @@
 import React from 'react';
 import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+import Image from "next/image";
 
 export default function CommunicationStyles(){
     return(
@@ -75,14 +76,16 @@ export default function CommunicationStyles(){
                     </p>
                 </div>
                 <figure className="mt-16">
-                    <img
+                    <Image
+                        height={3456}
+                        width={5184}
                         className="aspect-video rounded-xl bg-gray-50 object-cover"
-                        src={'/49538474_605.jpg'}
+                        src={'/pexels-jeff-stapleton-5792807.jpg'}
                         alt=""
                     />
                     <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
                         <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
-                        Faucibus commodo massa rhoncus, volutpat.
+                        Greece Market
                     </figcaption>
                 </figure>
             </div>

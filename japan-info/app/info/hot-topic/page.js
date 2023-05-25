@@ -11,7 +11,7 @@ export default function HotTopic() {
                             className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
                             height={1406}
                             width={2107}
-                            src={'/Japan-2107x1406.jpg'}
+                            src={'/pexels-hert-niks-3224223.jpg'}
                             alt=""
                         />
                     </div>

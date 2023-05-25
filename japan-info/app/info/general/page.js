@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import { MapIcon, MapPinIcon, UserIcon, CurrencyYenIcon, FlagIcon, LanguageIcon, SunIcon, MusicalNoteIcon, LightBulbIcon, BoltIcon } from '@heroicons/react/20/solid'
+import { MapIcon, MapPinIcon, UserIcon, CurrencyEuroIcon, FlagIcon, LanguageIcon, SunIcon, MusicalNoteIcon, LightBulbIcon, BoltIcon } from '@heroicons/react/20/solid'
 export default function General(){
     return(
         <div className="relative isolate overflow-hidden px-6  sm:py-32 lg:overflow-visible lg:pt-12">
@@ -50,7 +50,7 @@ export default function General(){
                   </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <CurrencyYenIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
+                                    <CurrencyEuroIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                     <span>
                     <strong className="font-semibold text-gray-900">GDP per Capita. </strong> $21,414 (as of 2020)
 

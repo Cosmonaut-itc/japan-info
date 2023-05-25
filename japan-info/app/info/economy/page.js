@@ -75,7 +75,7 @@ export default function Economia(){
             <div className="relative overflow-hidden pt-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <Image
-                        src={"/14japan-economy-1-videoSixteenByNine3000.jpg"}
+                        src={"/pexels-josiah-lewis-770062.jpg"}
                         alt="App screenshot"
                         className="mb-[-8%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
                         width={2432}
@@ -137,7 +137,7 @@ export default function Economia(){
                     </div>
                     <div className="flex items-start justify-end lg:order-first">
                         <Image
-                            src={"/japan-top-tech-company-1.jpg"}
+                            src={"/pexels-josiah-lewis-772688.jpg"}
                             alt="Product screenshot"
                             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
                             width={2432}
