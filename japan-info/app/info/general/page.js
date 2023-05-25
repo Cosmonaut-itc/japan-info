@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import { MapIcon, MapPinIcon, UserIcon, CurrencyYenIcon, FlagIcon, LanguageIcon, SunIcon, MusicalNoteIcon, LightBulbIcon } from '@heroicons/react/20/solid'
+import { MapIcon, MapPinIcon, UserIcon, CurrencyYenIcon, FlagIcon, LanguageIcon, SunIcon, MusicalNoteIcon, LightBulbIcon, BoltIcon } from '@heroicons/react/20/solid'
 export default function General(){
     return(
         <div className="relative isolate overflow-hidden px-6  sm:py-32 lg:overflow-visible lg:pt-12">
@@ -8,12 +8,11 @@ export default function General(){
                 <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div className="lg:pr-4">
                         <div className="lg:max-w-lg">
-                            <p className="text-base font-semibold leading-7 text-red-600">General Information</p>
-                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Japan</h1>
+                            <p className="text-base font-semibold leading-7 text-blue-600">General Information</p>
+                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hellenic Republic (Ελληνική Δημοκρατία)</h1>
                             <p className="mt-6 text-xl leading-8 text-gray-700">
-                                Japan is one of the biggest economy of the 21st century. It is a country with a rich culture and history that dates all the
-                                way back to the 10th century. It is also one of the most technologically advanced countries in the world. Focused on production
-                                and development, it is a democratic success in the Asian continent.
+                                Greece is considered the cradle of the western civilization being the birthplace of democracy, Western philosophy, Western literature, historiography, political science,
+                                major scientific and mathematical principles, theatre and the Olympic Games. Its economy is amongst the largest in the Balkans, where it is an important regional investor.
                             </p>
                         </div>
                     </div>
@@ -23,7 +22,7 @@ export default function General(){
                         width={500}
                         height={500}
                         className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-                        src="/pexels-satoshi-hirayama-1325837.jpg"
+                        src="/shutterstock_1890852892.png"
                         alt=""
                     />
                 </div>
@@ -32,121 +31,119 @@ export default function General(){
                         <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                             <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
-                                    <MapIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <MapIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                     <span>
-                    <strong className="font-semibold text-gray-900">Location.</strong> Eastern Asia, island chain between
-                                        the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula
+                    <strong className="font-semibold text-gray-900">Location.</strong> Southeastern Europe, situated on the southern end of the Balkan Peninsula and bordered by the Aegean Sea to the east, the Ionian Sea to the west, and the Mediterranean Sea to the south
+
                   </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <MapPinIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <MapPinIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                     <span>
-                    <strong className="font-semibold text-gray-900">Capital.</strong> Tokyo
+                    <strong className="font-semibold text-gray-900">Capital.</strong> Athens
                   </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <UserIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <UserIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                     <span>
-                    <strong className="font-semibold text-gray-900">Number of inhabitants. </strong> 123,719,238 (2023 est.), most of the population
-                                        resides on the coastal areas, with one third living in Kanto Plain (Tokyo)
+                    <strong className="font-semibold text-gray-900">Number of inhabitants. </strong> Approximately 10.4 million people (2021 est.)
                   </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <CurrencyYenIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <CurrencyYenIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                     <span>
-                    <strong className="font-semibold text-gray-900">GDP per Capita. </strong> $40,800 (2021 est.) note: data are in 2017 dollars
+                    <strong className="font-semibold text-gray-900">GDP per Capita. </strong> $21,414 (as of 2020)
+
                   </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <LanguageIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                    <LanguageIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                     <span>
-                    <strong className="font-semibold text-gray-900">Language. </strong> Japanese
+                    <strong className="font-semibold text-gray-900">Language. </strong> Modern Greek
                   </span>
                                 </li>
                             </ul>
                             <h4 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Ethnic Distribution</h4>
                             <p className="mt-8">
-                                Japanese 97.9%, Chinese 0.6%, Korean 0.4%, other 1.1% (includes Vietnamese, Filipino, and Brazilian) (2017 est.)
+                                Predominantly Greek, with small populations of minority groups including Albanians, Turks, and Romani.
                             </p>
                             <h4 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Type of Government</h4>
                             <p className="mt-6">
-                                Japan is a parliamentary constitutional monarchy, the emperor is the head of state and the prime minister is the head of government.
-                                The emperor is a ceremonial figurehead who performs ceremonial duties, but his power is limited. The prime minister is the head of the
-                                government.
+                                Parliamentary Republic with a President as the head of state and a Prime Minister as the head of government.
                             </p>
                             <div className="mt-8 lg:sticky">
                                 <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Representative Symbols</h3>
                                 <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                     <li className="flex gap-x-3">
-                                        <FlagIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <FlagIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                         <span>
-                                        <strong className="font-semibold text-gray-900">Flag.</strong> White with a large red disk (representing the sun without rays) in the center
+                                        <strong className="font-semibold text-gray-900">Flag.</strong> The flag of Greece, known as the "blue and white" (Γαλανόλευκη), features nine horizontal stripes of blue alternating with white, with a blue square bearing a white cross in the canton.
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
                                         <Image
                                             height={500}
                                             width={500}
-                                            src={"/japan-flag-vector-file-89261619 (1).jpg"}
+                                            src={"/Flag_of_Greece.svg.png"}
                                             alt="japan flag"
                                             className={"w-50 h-25"}
                                         />
                                     </li>
                                     <li className="flex gap-x-3">
-                                        <SunIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <SunIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                         <span>
-                                        <strong className="font-semibold text-gray-900">Flower.</strong> Cherry blossom
+                                        <strong className="font-semibold text-gray-900">Shield/Coat of Arms.</strong> The national emblem of Greece features a blue escutcheon with a white cross surrounded by two laurel branches.
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
                                         <Image
                                             height={500}
                                             width={500}
-                                            src={"/pexels-brett-sayles-992734.jpg"}
+                                            src={"/Coat_of_arms_of_Greece_(colour).svg.png"}
                                             alt="Cherry Blossom"
                                             className={"w-50 h-25"}
                                         />
                                     </li>
                                     <li className="flex gap-x-3">
-                                        <LightBulbIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <LightBulbIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                         <span>
-                                        <strong className="font-semibold text-gray-900">Fish.</strong> Koi
+                                        <strong className="font-semibold text-gray-900">Acropolis.</strong> An ancient citadel located on a rocky outcrop above the city of Athens, containing the remains of several ancient buildings of great historical significance, the most famous being the Parthenon.
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
                                         <Image
                                             height={500}
                                             width={500}
-                                            src={"/Koi.jpg"}
+                                            src={"/adventures-by-disney-europe-greece-hero-04-acropolis-1x1.webp"}
                                             alt="Koi Fish"
                                             className={"w-50 h-25"}
                                         />
                                     </li>
                                     <li className="flex gap-x-3">
-                                        <MusicalNoteIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <BoltIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                         <span>
-                                        <strong className="font-semibold text-gray-900">Imperial Seal. </strong> Chrysanthemum Flower Seal
+                                        <strong className="font-semibold text-gray-900">Mount Olympues </strong> n Greek mythology, Mount Olympus is the home of the Greek gods. It's the highest mountain in Greece.
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
                                         <Image
                                             height={500}
                                             width={500}
-                                            src={"/1920px-Imperial_Seal_of_Japan.svg.png"}
+                                            src={"/shutterstock_1406557727-2.webp"}
                                             alt="Koi Fish"
                                             className={"w-50 h-25"}
                                         />
                                     </li>
                                     <li className="flex gap-x-3">
-                                        <MusicalNoteIcon className="mt-1 h-5 w-5 flex-none text-red-600" aria-hidden="true" />
+                                        <MusicalNoteIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                         <span>
-                                        <strong className="font-semibold text-gray-900">National Anthem</strong> Kimi Ga Yo 君が代
+                                        <strong className="font-semibold text-gray-900">National Anthem</strong> The Hymn to Liberty (Greek: Ὕμνος εἰς τὴν Ἐλευθερίαν, Ýmnos is tīn Eleftherian)
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
                                         <div className="w-90 h-40 relative overflow-visible">
-                                            <iframe
-                                                    src="https://www.youtube.com/embed/mlESQKFUNfw"
+                                            <iframe width="560" height="315"
+                                                    src="https://www.youtube.com/embed/5VkPRU6C-JQ"
                                                     title="YouTube video player"
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                     allowFullScreen>
