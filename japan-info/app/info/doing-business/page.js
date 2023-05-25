@@ -7,35 +7,35 @@ const timeline = [
         name: 'Information Sharing',
         description:
             'Greeks value trust in their business relations and prefer face-to-face meetings for negotiations. They appreciate a detailed presentation and discussion of business propositions.\n',
-        date: 'Step 1',
+        date: '',
         dateTime: '2021-08',
     },
     {
         name: 'Pace',
         description:
         ' Negotiations in Greece can often be slow. Patience is essential since Greeks take time to build relationships and make decisions.\n',
-        date: 'Step 2',
+        date: '',
         dateTime: '2021-12',
     },
     {
         name: 'Negotiation Strategies & Techniques',
         description:
         'Both integrative and distributive negotiation techniques are used in Greece. Greeks often start with a distributive approach, presenting an ambitious initial position, and expect some level of bargaining. However, the ultimate goal is to find a win-win outcome, hence an integrative approach is appreciated as well.\n',
-        date: 'Step 3',
+        date: '',
         dateTime: '2022-02',
     },
     {
         name: 'Decision Making',
         description:
             'Decisions are often made by the person with the most authority. It\'s important to build a strong relationship with this individual.\n',
-        date: 'Step 4',
+        date: '',
         dateTime: '2022-12',
     },
     {
         name: 'Women in Business',
         description:
             'While Greece has traditionally been a male-dominated society, the presence of women in business has been increasing. Nevertheless, businesswomen might still face more challenges than their male counterparts.\n',
-        date: 'Step 5',
+        date: '',
         dateTime: '2022-12',
     },
 
