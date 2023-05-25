@@ -10,12 +10,12 @@ import {
 const features = [
     {
         name: 'Main Exports.',
-        description: 'Cars and vehicle parts, integrated circuits, general machinery, photo lab equipment, construction vehicles, semiconductors  (2021)',
+        description: 'Refined petroleum, packaged medicaments, aluminum plating, fresh fish, and fruit (particularly oranges, olives, and apricots)\n',
         icon: GlobeAsiaAustraliaIcon,
     },
     {
         name: 'Main Imports.',
-        description: 'Crude petroleum, natural gas, integrated circuits, coal, refined petroleum, iron (2021)',
+        description: 'Crude petroleum, packaged medicaments, cars, refined petroleum, and computers\n',
         icon: GlobeAmericasIcon,
     },
     {
@@ -50,12 +50,12 @@ const economicSectorFeatures = [
 ]
 
 const stats = [
-    { id: 1, name: 'GDP (2021 est.)', value: '5.126 trillion' },
-    { id: 2, name: 'Inflation (2021 est.)', value: '-0.23% ' },
-    { id: 3, name: 'Unemployment (2021 est.)', value: '2.8%' },
-    { id: 4, name: 'Imports (2021 est.)', value: '941.671 billion' },
-    { id: 5, name: 'Exports (2021 est.)', value: '919.158 billion' },
-    { id: 6, name: 'Yen (JPY) per US dollar (2021 est.)', value: '109.754' },
+    { id: 1, name: 'GDP (2021 est.)', value: '314.427 billion' },
+    { id: 2, name: 'Inflation (2020 est.)', value: '-2%' },
+    { id: 3, name: 'Unemployment (2020 est.)', value: '16.3%' },
+    { id: 4, name: 'Imports (2021 est.)', value: '103.532 billion ' },
+    { id: 5, name: 'Exports (2021 est.)', value: '87.521 billion' },
+    { id: 6, name: 'euros (EUR) per US dollar (2021 est.)', value: '0.845' },
 ]
 
 
