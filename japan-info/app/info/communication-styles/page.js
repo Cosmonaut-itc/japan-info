@@ -24,7 +24,7 @@ export default function CommunicationStyles(){
                         <li className="flex gap-x-3">
                             <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                             <span>
-                                <strong className="font-semibold text-gray-900">Small Talk.</strong> Greeks generally enjoy engaging in small talk before getting down to business. It&apos;s common to talk about one&apos;s health, family, and mutual acquaintances. Greeks appreciate honesty and directness, but be careful to avoid topics that could be seen as disrespectful or offensive, like comparing Greece negatively to other countries, or speaking disrespectfully about the Greek Orthodox Church or the country's history. Also, avoid hand gestures like the moutza (open palm, fingers extended) which is seen as highly offensive.
+                                <strong className="font-semibold text-gray-900">Small Talk.</strong> Greeks generally enjoy engaging in small talk before getting down to business. It&apos;s common to talk about one&apos;s health, family, and mutual acquaintances. Greeks appreciate honesty and directness, but be careful to avoid topics that could be seen as disrespectful or offensive, like comparing Greece negatively to other countries, or speaking disrespectfully about the Greek Orthodox Church or the country&apos;s history. Also, avoid hand gestures like the moutza (open palm, fingers extended) which is seen as highly offensive.
 
                             </span>
                         </li>
