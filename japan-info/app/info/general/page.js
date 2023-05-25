@@ -77,7 +77,7 @@ export default function General(){
                                     <li className="flex gap-x-3">
                                         <FlagIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                         <span>
-                                        <strong className="font-semibold text-gray-900">Flag.</strong> The flag of Greece, known as the "blue and white" (Γαλανόλευκη), features nine horizontal stripes of blue alternating with white, with a blue square bearing a white cross in the canton.
+                                        <strong className="font-semibold text-gray-900">Flag.</strong> The flag of Greece, known as the &quot;blue and white&quot; (Γαλανόλευκη), features nine horizontal stripes of blue alternating with white, with a blue square bearing a white cross in the canton.
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
@@ -122,7 +122,7 @@ export default function General(){
                                     <li className="flex gap-x-3">
                                         <BoltIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                                         <span>
-                                        <strong className="font-semibold text-gray-900">Mount Olympues </strong> n Greek mythology, Mount Olympus is the home of the Greek gods. It's the highest mountain in Greece.
+                                        <strong className="font-semibold text-gray-900">Mount Olympues </strong>In Greek mythology, Mount Olympus is the home of the Greek gods. It&apos;s the highest mountain in Greece.
                                       </span>
                                     </li>
                                     <li className="flex gap-x-3 ">
