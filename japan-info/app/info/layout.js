@@ -17,7 +17,9 @@ export default function DashboardLayout({children}) {
                     }}
                 />
             </div>
+
             {children}
+
         </section>
     );
 }
