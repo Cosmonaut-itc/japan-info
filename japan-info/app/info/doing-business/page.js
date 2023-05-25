@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import {ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, ServerIcon} from "@heroicons/react/20/solid";
+import {ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon} from "@heroicons/react/20/solid";
 
 const timeline = [
     {
@@ -49,10 +49,16 @@ const similaritiesDiferences = [
         icon: CloudArrowUpIcon,
     },
     {
-        name: 'Negotiations',
+        name: 'Conflict in Negotiations',
         description:
-            'Japanese negotiations may take longer due to the emphasis on consensus decision-making, while Mexican negotiations may be faster once a strong personal relationship is established.\n',
+            'Mexicans tend to avoid direct conflict in negotiations and may express disagreement indirectly. In contrast, Greeks may openly express their opinions and disagreements.\n',
         icon: LockClosedIcon,
+    },
+    {
+        name: 'Relationship-Oriented',
+        description:
+            'Both Mexican and Greek negotiators prioritize building personal relationships and trust before discussing business matters.\n',
+        icon: FingerPrintIcon,
     },
     {
         name: 'Priorities',
@@ -61,11 +67,32 @@ const similaritiesDiferences = [
         icon: ArrowPathIcon,
     },
     {
-        name: 'Formality',
+        name: 'Respect for Hierarchy',
         description:
-            'Mexicans might find Greek business culture more formal.\n',
+            'Both cultures place a high value on authority and hierarchy in business settings, though this may be expressed differently in each context.\n',
         icon: FingerPrintIcon,
     },
+    {
+        name: 'Communication Style',
+        description:
+            'Mexican negotiators tend to use indirect language and avoid direct confrontation, while Greek negotiators are known for their direct and open communication style.',
+        icon: FingerPrintIcon,
+    },
+
+
+    {
+        name: 'Time and Patience:',
+        description:
+            'In both cultures, negotiations are viewed as a process that should not be rushed. They appreciate patience and a willingness to engage in lengthy discussions.\n',
+        icon: FingerPrintIcon,
+    },
+    {
+        name: 'Emotion in Negotiations',
+        description:
+            'Greeks might show more emotion during negotiations, seen as a sign of honesty and openness. This level of emotion may be less common in Mexican negotiations.',
+        icon: FingerPrintIcon,
+    },
+
 ]
 
 const faqs = [
